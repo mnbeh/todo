@@ -1,0 +1,29 @@
+.btn {
+    cursor: pointer;
+    background-color: #F73B19;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 3px 7px;
+    margin-left: auto;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #F73B19;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.todo-list-item {
+    display: flex;
+    max-width: 260px;
+    margin: 0 auto;
+}
