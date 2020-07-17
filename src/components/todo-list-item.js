@@ -4,7 +4,7 @@ import './todo-list-item.css';
 const TodoListItem = ({text, deleteTask}) => {
   return(
     <div className="todo-list-item">
-      <span>{text}</span>
+      <div className="text">{text}</div>
       <button className="btn" onClick={deleteTask}>Delete task</button>
     </div>
   );

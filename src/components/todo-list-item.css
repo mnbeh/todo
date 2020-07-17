@@ -27,3 +27,9 @@
     max-width: 260px;
     margin: 0 auto;
 }
+
+.text {
+    max-width: 160px;
+    word-wrap: break-word;
+    text-align: left;
+}
